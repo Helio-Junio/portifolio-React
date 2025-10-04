@@ -1,0 +1,251 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.conteudo-inicial {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo-inicial p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.conteudo-inicial img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-carreira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.conteudo-carreira h1 {
+    margin-bottom: 4rem;
+    font-size: 34px;
+    font-weight: 600;
+    color: #61DAFB;
+}
+
+.conteudo-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.conteudo-projetos h1 {
+    margin-bottom: 4rem;
+    font-size: 34px;
+    font-weight: 600;
+    color: #61DAFB;
+}
+
+.conteudo-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.conteudo-contato h1 {
+    margin-bottom: 4rem;
+    font-size: 34px;
+    font-weight: 600;
+    color: #61DAFB;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container p {
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container img {
+    width: 300px;
+    height: 300px;
+    margin-left: 15rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color:#61DAFB;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 10px;
+    }
+
+    .contact-container img {
+        margin-left: 0;
+        width: 80px;
+        height: 80px;
+    }
+
+    .contact-container p {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 10px;
+        width: auto;
+        height: auto;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .menu ul li {
+        text-align: center;
+    }
+
+    .menu ul li a {
+        text-align: center;
+    }
+
+    .conteudo-inicial {
+        flex-direction: column;
+    }
+
+    .conteudo-inicial p {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .conteudo-inicial img {
+        margin-left: 0;
+        margin-right: 0;
+        width: 150px;
+        height: 150px;
+    }
+
+    .conteudo-carreira {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .conteudo-projetos {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .conteudo-contato {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 10px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-container img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .contact-container {
+        gap: 1rem;
+    }
+
+    .conteudo-footer {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 10px;
+    }
+    
+}
