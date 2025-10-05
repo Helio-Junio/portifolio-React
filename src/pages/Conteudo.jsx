@@ -31,7 +31,7 @@ const Conteudo = () => {
                 Apaixonado por resolver problemas e transformar ideias em interfaces funcionais e bem estruturadas.
                 Atualmente busco minha primeira oportunidade como <strong>Desenvolvedor Júnior</strong>, aplicando meus conhecimentos em <strong>interfaces responsivas, consumo de APIs REST, versionamento com Git e boas práticas de código.</strong>
                 </p>
-                <img src="public/foto.png" alt="foto de perfil" />
+                <img src="/foto.png" alt="foto de perfil" />
             </div>
             <div id="career" className="conteudo-carreira">
                 <h1>Minha Carreira</h1>

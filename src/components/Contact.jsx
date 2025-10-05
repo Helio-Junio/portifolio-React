@@ -11,7 +11,7 @@ const Contact = () => {
                 {<WhatsAppIcon sx={{  verticalAlign: 'middle', marginRight: '8px' }} />} (35) 9 9981-7339 <br />
                 {<LinkedInIcon sx={{  verticalAlign: 'middle', marginRight: '8px' }} />} /helio-junio
             </p>
-            <img className="icones-linguagem" src="public/Icones.svg" alt="Icones de linguagem de programação" />
+            <img className="icones-linguagem" src="Icones.svg" alt="Icones de linguagem de programação" />
         </div>
     </>
     )
